@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Calculator Assignment</title>
+    <title>Calculator Occult Gurukul Assignment</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,9 +12,9 @@
                     <input type="text" name="display" id="display">
                 </div>
                 <div>
-                    <input type="button" value="AC" onclick="clearDisplay()" class="delete">
-                    <input type="button" value="DEL" onclick="deleteLast()" class="delete">
-                    <input type="button" value="." onclick="appendValue('.')">
+                    <input type="button" value="AC" onclick="clearDisplay()" class="function">
+                    <input type="button" value="DEL" onclick="deleteLast()" class="function">
+                    <input type="button" value="HIS" onclick="showHistory()" class="function">
                     <input type="button" value="/" onclick="appendOperator('/')" class="operator">
                 </div>
                 <div>
@@ -36,7 +36,7 @@
                     <input type="button" value="+" onclick="appendOperator('+')" class="operator">
                 </div>
                 <div>
-                    <input type="button" value="00" onclick="appendValue('00')">
+                    <input type="button" value="." onclick="appendValue('.')">
                     <input type="button" value="0" onclick="appendValue('0')">
                     <input type="button" value="=" class="equal" onclick="calculate()">
                 </div>
